@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero World!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="brandName">Superhero World!</div>
+        <div class="learnHow">Learn how!</div>
+      </div>
+
+      <div class="innerContainer">
+        <div class="inputContainer">
+          <input
+            type="text"
+            id="inputBox"
+            placeholder="Who's your superhero.."
+          />
+          <div id="loaderBtn"></div>
+          <button id="findBtn">FIND</button>
+        </div>
+
+        <div class="detailsContainer">
+          <div class="placeholderText">Find your favourite Superhero!</div>
+          <div class="options">
+            Try searching like <span>captain</span> or
+            <span>captain america</span>...
+          </div>
+        </div>
+
+        <div class="cardContainer"></div>
+
+        <div class="modal">
+          <div class="overlay"></div>
+          <div class="closeBtn">&times;</div>
+
+          <div class="powerStats"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
